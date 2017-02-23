@@ -7,7 +7,7 @@ const Header = (props) => {
         Catch
         <span className="ofThe">
           <span className="of">of</span>
-          <span className="the">the</span> 
+          <span className="the">the</span>
         </span>
         Day
       </h1>
@@ -15,5 +15,9 @@ const Header = (props) => {
     </header>
   )
 }
+
+Header.propTypes = {
+  tagline: React.PropTypes.string.isRequired
+};
 
 export default Header;
